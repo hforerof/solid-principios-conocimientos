@@ -21,6 +21,7 @@ S: Principio de responsabilidad única
 Como su propio nombre indica, establece que una clase, componente o microservicio debe ser responsable de una sola cosa (el tan aclamado término “decoupled” en inglés). Si por el contrario, una clase tiene varias responsabilidades, esto implica que el cambio en una responsabilidad provocará la modificación en otra responsabilidad.
 
 Ejemplo 1 bad
+
 class Customer(object):
 
     def __init__(self, name):
