@@ -22,8 +22,8 @@ Como su propio nombre indica, establece que una clase, componente o microservici
 
 Ejemplo 1 bad
 
-class Customer(object):
 
+class Customer(object):
     def __init__(self, name):
         self.name = name
 
