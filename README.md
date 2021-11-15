@@ -20,41 +20,7 @@ S: Principio de responsabilidad única
 
 Como su propio nombre indica, establece que una clase, componente o microservicio debe ser responsable de una sola cosa (el tan aclamado término “decoupled” en inglés). Si por el contrario, una clase tiene varias responsabilidades, esto implica que el cambio en una responsabilidad provocará la modificación en otra responsabilidad.
 
-Ejemplo 1 bad
-
-
-class Customer(object):
-    def __init__(self, name):
-        self.name = name
-
-    def store_customer(self, name):
-        """ Store into db responsibility. """
-        pass
-
-    def generate_customer_report(self, name):
-        """ Generate report responsibility. """
-        pass
-
-
-
-Ejemplo 2 Bueno
-
-
-class Customer(object):
-    def __init__(self, name):
-        self.name = name
-
-class CustomerDB(object):
-
-    def store_customer(self, customer_name):
-        pass
-class CustomerReportGenerator(object):
-
-    def generate_report(self, customer_name):
-        pass
-        
-        
-        
+   
 O: Principio abierto/cerrado
 
 Establece que las entidades software (clases, módulos y funciones) deberían estar abiertos para su extensión, pero cerrados para su modificación.
@@ -81,6 +47,7 @@ Lo más correcto sería segregar más las interfaces, tanto como sea necesario. 
 Así, cada clase implementa las interfaces de la que realmente necesita implementar sus métodos. A la hora de añadir nuevas funcionalidades, esto nos ahorrará bastante tiempo, y además, cumplimos con el primer principio (Responsabilidad Única).
 
 D: Principio de inversión de dependencias
+
 
 Establece que las dependencias deben estar en las abstracciones, no en las concreciones. Es decir:
 
