@@ -24,6 +24,7 @@ Ejemplo 1 bad
 
 
 class Customer(object):
+
     def __init__(self, name):
         self.name = name
 
@@ -36,6 +37,29 @@ class Customer(object):
         pass
 
 
+
+Ejemplo 2 Bueno
+
+
+class Customer(object):
+
+    def __init__(self, name):
+        self.name = name
+
+
+class CustomerDB(object):
+
+    def store_customer(self, customer_name):
+        pass
+
+
+class CustomerReportGenerator(object):
+
+    def generate_report(self, customer_name):
+        pass
+        
+        
+        
 O: Principio abierto/cerrado
 
 Establece que las entidades software (clases, módulos y funciones) deberían estar abiertos para su extensión, pero cerrados para su modificación.
