@@ -29,7 +29,6 @@ Establece que las entidades software (clases, módulos y funciones) deberían es
 L: Principio de substitución de Liskov
 
 Declara que una subclase debe ser sustituible por su superclase, y si al hacer esto, el programa falla, estaremos violando este principio.
-
 Cumpliendo con este principio se confirmará que nuestro programa tiene una jerarquía de clases fácil de entender y un código reutilizable.
 
 
