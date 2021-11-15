@@ -1,7 +1,7 @@
 # solid-principios-conocimientos
 PRINCIPIOS SOLID 
 
-Sabemos que los POO (Programación Orientada a Objetos), permiten agrupar entidades con funcionalidades parecidas y relacionadas entre sí, no implicando que los programas no se vuelvan confusos o difíciles de mantener. 
+Sabemos que los POO (Programación Orientada a Objetos), permiten agrupar entidades con funcionalidades parecidas y relacionadas entre sí, evitando que los programas se vuelvan confusos o difíciles de sustentar. 
 
 De hecho, muchos programas se complican cada vez que se alimentan o agreguen funcionalidades o realiza mantenimiento. 
 
