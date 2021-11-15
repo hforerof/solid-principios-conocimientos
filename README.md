@@ -47,11 +47,9 @@ Así, cada clase implementa las interfaces de la que realmente necesita implemen
 
 D: Principio de inversión de dependencias
 
-
 Establece que las dependencias deben estar en las abstracciones, no en las concreciones. Es decir:
-
-    Los módulos de alto nivel no deberían depender de módulos de bajo nivel. Ambos deberían depender de abstracciones.
-    Las abstracciones no deberían depender de detalles. Los detalles deberían depender de abstracciones.
+Los módulos de alto nivel no deberían depender de módulos de bajo nivel. Ambos deberían depender de abstracciones.
+Las abstracciones no deberían depender de detalles. Los detalles deberían depender de abstracciones.
 
 En algún momento nuestro programa o aplicación llegará a estar formado por muchos módulos. Cuando esto pase, es cuando debemos usar inyección de dependencias, lo que nos permitirá controlar las funcionalidades desde un sitio concreto en vez de tenerlas esparcidas por todo el programa. Además, este aislamiento nos permitirá realizar testing mucho más fácilmente.
 
