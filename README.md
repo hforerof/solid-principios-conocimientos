@@ -5,8 +5,6 @@ Sabemos que los POO (Programación Orientada a Objetos), permiten agrupar entida
 
 De hecho, muchos programas se complican cada vez que se alimentan o agreguen funcionalidades o realiza mantenimiento. 
 
-Por este problema Robert C. Martin estableció cinco principios para facilitar a los desarrolladores la labor de crear programas y mantenibles. 
-
 Estos principios se llamaron S.O.L.I.D. por sus siglas en inglés:
 
     S: Single responsibility principle o Principio de responsabilidad única
